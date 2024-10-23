@@ -6,7 +6,307 @@
     <title>Préparer les sacs</title>
 </head>
 <body>
+    <a href="../accueil.html">Accueil</a>
+    <a href="../portailbenevole.html">Portail bénévole</a>
     <h1>Préparer les sacs</h1>
-    
+    <p>Pour préparer les sacs, vous pouvez vous appuyer sur les données ci-dessous issues de la maraude précédente ou de l'inventaire précédent pour savoir ce qu'il faut réapprovisionner en priorité. Attention, ces informations ne sont pas forcément à jour !</p>
+    <p>Nombre de sacs à préparer :</p>
+    <input type="number" min="1" max="5" value="3"/>
+    <button>Valider</button>
+    <h2>Sac 1</h2>
+    <table>
+        <caption>Objets nécessaires</caption>
+        <thead>
+            <tr>
+                <th>Objet</th>
+                <th colspan="2">Quantité</th>
+                <th>Absence</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gobelets</td>
+                <td>Nombre de gobelets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Café</td>
+                <td>Remplissage du pot</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Thé</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Infusions</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Soupe</td>
+                <td>Remplissage du sachet</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Sucre</td>
+                <td>Remplissage de la boite</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Touillettes</td>
+                <td>Nombre de touillettes</td>
+                <td><input type="number" min="0" max="200" placeholder="30"/></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <caption>Objets optionnels</caption>
+        <thead>
+            <th>Objet</th>
+            <th colspan="2">Quantité</th>
+            <th>Absence</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gâteaux secs</td>
+            </tr>
+            <tr>
+                <td>Produits d'hygiène</td>
+            </tr>
+            <tr>
+                <td>Produits d'hygiène féminine</td>
+            </tr>
+        </tbody>
+    </table>
+    <button>Valider l'approvisionnement du sac 1</button>
+    <h2>Sac 2</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Objet</th>
+                <th colspan="2">Quantité</th>
+                <th>Absence</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gobelets</td>
+                <td>Nombre de gobelets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Café</td>
+                <td>Remplissage du pot</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Thé</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Infusions</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Soupe</td>
+                <td>Remplissage du sachet</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Sucre</td>
+                <td>Remplissage de la boite</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Touillettes</td>
+                <td>Nombre de touillettes</td>
+                <td><input type="number" min="0" max="200" placeholder="30"/></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <button>Valider l'approvisionnement du sac 2</button>
+    <h2>Sac 3</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Objet</th>
+                <th colspan="2">Quantité</th>
+                <th>Absence</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gobelets</td>
+                <td>Nombre de gobelets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Café</td>
+                <td>Remplissage du pot</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Thé</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Infusions</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Soupe</td>
+                <td>Remplissage du sachet</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Sucre</td>
+                <td>Remplissage de la boite</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Touillettes</td>
+                <td>Nombre de touillettes</td>
+                <td><input type="number" min="0" max="200" placeholder="30"/></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <button>Valider l'approvisionnement du sac 3</button>
+    <h2>Sac 4</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Objet</th>
+                <th colspan="2">Quantité</th>
+                <th>Absence</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gobelets</td>
+                <td>Nombre de gobelets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Café</td>
+                <td>Remplissage du pot</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Thé</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Infusions</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Soupe</td>
+                <td>Remplissage du sachet</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Sucre</td>
+                <td>Remplissage de la boite</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Touillettes</td>
+                <td>Nombre de touillettes</td>
+                <td><input type="number" min="0" max="200" placeholder="30"/></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <button>Valider l'approvisionnement du sac 4</button>
+    <h2>Sac 5</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Objet</th>
+                <th colspan="2">Quantité</th>
+                <th>Absence</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gobelets</td>
+                <td>Nombre de gobelets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Café</td>
+                <td>Remplissage du pot</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Thé</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Infusions</td>
+                <td>Nombre de sachets</td>
+                <td><input type="number" min="0" max="50" placeholder="5"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Soupe</td>
+                <td>Remplissage du sachet</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Sucre</td>
+                <td>Remplissage de la boite</td>
+                <td><input type="range" min="0" max="100" value="50" step="1"/></td>
+                <td><input type="checkbox"/></td>
+            </tr>
+            <tr>
+                <td>Touillettes</td>
+                <td>Nombre de touillettes</td>
+                <td><input type="number" min="0" max="200" placeholder="30"/></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <button>Valider l'approvisionnement du sac 5</button>
 </body>
 </html>
